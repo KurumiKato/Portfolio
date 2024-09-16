@@ -540,21 +540,25 @@ footer small{
 @media(max-width:670px){
   /* サイトトップ */
   header{
-    height: 600px;
+    height: 500px;
   }
   header .rgba_cover div{
-    padding-top: 125px;
+    padding-top: 120px;
   }
   header h1{
-    font-size: 48px;
+    font-size: 30px;
     font-weight: bold;
   }
   header h2{
-    font-size: 32px;
+    font-size: 20px;
   }
   header p{
     margin-top: 40px;
-    font-size: 20px;
+    font-size: 15px;
+  }
+
+  main{
+    padding: 10px;
   }
 
   /* 自己紹介 */
@@ -574,7 +578,7 @@ footer small{
     background-color: white;
   }
   main .explain p{
-    font-size: 13px;
+    font-size: 12px;
     padding: 8px 8px;
   }
   main .about .dog{
@@ -640,7 +644,7 @@ footer small{
     padding: 0;
   }
   main .skill{
-    width: 170px;
+    width: 45%;
     font-size: 13px;
     margin-bottom: 20px;
   }
@@ -667,7 +671,7 @@ footer small{
   }
   main .news iframe{
     margin-top: 25px;
-    height: 400px;
+    width: 100%;
   }
 
   /* フッター */
