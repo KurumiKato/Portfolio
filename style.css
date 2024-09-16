@@ -615,20 +615,19 @@ footer small{
     margin-bottom: 120px;
   }
   main .businesscard .business_img{
-    width: 400px;
-    height: 280px;
+    position: absolute;
+    left: 0;
+    width: 100%;
+    pointer-events: none;
+  }
+  main .businesscard #cover{
+    display: none;
   }
   main .businesscard .arrow{
-    top:70px;
-    right: 20px;
-    rotate: -50deg;
-    width: 40px;
+    display: none;
   }
   main .businesscard .click_img{
-    position: absolute;
-    top: 40px;
-    right: 20px;
-    width: 50px;
+    display: none;
   }
 
   /* スキルについて */
