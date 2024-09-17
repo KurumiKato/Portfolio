@@ -294,7 +294,7 @@ main .skill img{
 main .skill button{
   background-color:#e3afaf;
   border: 2px solid #e3afaf;
-  box-shadow: 1px 1px 2px;
+  box-shadow: 1px 1px 2px rgb(128, 126, 126);
   border-radius: 5px;
   margin-top: 10px;
 }
@@ -540,7 +540,7 @@ footer small{
 @media(max-width:670px){
   /* サイトトップ */
   header{
-    height: 500px;
+    height: 700px;
   }
   header .rgba_cover div{
     padding-top: 120px;
@@ -604,6 +604,7 @@ footer small{
   }
   main .circlesvg{
     top: 1300px;
+    right: -90px;
     width: 40%;
   }
 
